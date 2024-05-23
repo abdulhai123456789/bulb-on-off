@@ -1,0 +1,36 @@
+*{
+    background-color: blueviolet;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #554a4a;
+    font-family: Arial, sans-serif;
+}
+
+.bulb-container {
+    margin-bottom: 20px;
+}
+
+#bulb {
+    width: 150px;
+    background: none;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+}
+
+button:active {
+    background-color: #0056b3;
+}
